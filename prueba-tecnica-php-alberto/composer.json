@@ -1,0 +1,28 @@
+{
+    "name": "albert/prueba-tecnica-php-alberto",
+    "description": "Tech test of php",
+    "type": "project",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-0": {
+            "database": "src",
+            "repositories": "src",
+            "entities": "src",
+            "exceptions": "src",
+            "tests": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alberto Fonseca Quintanell",
+            "email": "alberto.fonsecaq@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^11.0@dev"
+    },
+    "require": {
+        "ext-sqlite3": "*"
+    }
+}
