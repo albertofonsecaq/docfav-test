@@ -21,6 +21,10 @@ $repository = new UserRepository();
 //$user = new User("abifonseca","abifonseca@gmail.com","1234");
 //$repository->store($user);
 
+//delete user
+//$userIds = [7,8,9,10,11,12];
+//foreach ($userIds as $id)
+//    $repository->delete($id);
 
 
 
